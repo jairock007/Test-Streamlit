@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('E:\\github_dataset.csv')
+df = pd.read_csv('github_dataset.csv')
 
 st.title('GitHub Repositories Dashboard')
 st.write("This dashboard provides insights into GitHub repositories dataset.")
